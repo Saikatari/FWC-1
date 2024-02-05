@@ -1,0 +1,102 @@
+
+\documentclass[12pt,-letter paper]{article}                       
+\usepackage{siunitx}                                              
+\usepackage{setspace}
+\usepackage{gensymb} 
+\usepackage{circuitikz}                       
+\usepackage{xcolor}                                               
+\usepackage{caption}
+%\usepackage{subcaption}
+\doublespacing                                                    
+\singlespacing                                                    
+\usepackage[none]{hyphenat}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+\usepackage{mathtools}
+\usepackage{amsmath}                                              
+\usepackage{commath}                                              
+\usepackage{amsthm}
+\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+\usepackage{txfonts}                                              
+%\restoresymbol{TXF}{iint}                                        
+\usepackage{wasysym}                                              
+\usepackage{amsthm}
+\usepackage{mathrsfs}                                             
+\usepackage{txfonts}                                              
+\let\vec\mathbf{}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{cases}                                                
+\usepackage{subfig}                                               
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+\usepackage{amssymb}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+%\usepackage{eenrc}
+%\usepackage[framemethod=tikz]{mdframed}                          
+\usepackage{listings}                                             
+%\usepackage{listings}
+\usepackage[latin1]{inputenc}
+%%\usepackage{color}{
+%%\usepackage{lscape}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{hyperref}
+%\usepackage{fulbigskip}
+\usepackage{tikz}
+\usepackage{graphicx}                                             
+\lstset{
+  frame=single,
+  breaklines=true
+}
+\let\vec\mathbf{}
+\usepackage{enumitem}                                             
+\usepackage{graphicx}                                             
+\usepackage{siunitx}
+\let\vec\mathbf{}                                                 
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{tfrupee}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mwe} % for blindtext and example-image-a in example
+\usepackage{wrapfig}
+\title{Matrix assignment}
+\date{\today}
+\usepackage{graphics}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+%\title{}
+\author{Prof.G V V sharma}
+\usepackage{graphicx}
+\graphicspath{{/storage/emulated/o/Fwc/gate/}}
+\usepackage{wrapfig}
+\begin{document}
+\title{\textbf{GATE}}
+\begin{enumerate}
+	\item A four-variable boolean function is realized using $4x1$ multiplexers as shown in the figure.
+\begin{figure}[H]
+\centering
+	\input{figs/mux.tex}
+		\caption{four-variable boolean function}
+		\label{fig}
+	\end{figure}
+		\hfill(GATE EC 2018)
+
+
+ The minimized expression for $F(U,V,W,X)$ is
+\begin{enumerate}
+\item $\brak{UV+ \bar{U}\bar{V}}\bar{W}$
+\item $\brak{UV+ \bar{U}\bar{V}}\brak{\bar{W}\bar{X}+\bar{W}X}$
+\item $ \brak{U\bar{V}+\bar{U}V}\bar{W}$
+\item $\brak{U\bar{V}+\bar{U}V}\brak{\bar{W}\bar{X}+\bar{W}X}$
+\end{enumerate}
+\end{enumerate}
+\end{document} 
